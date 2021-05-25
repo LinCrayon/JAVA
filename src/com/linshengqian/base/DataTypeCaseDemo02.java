@@ -1,6 +1,6 @@
 package com.linshengqian.base;
 
-public class DataTypeCaseDemon02 {
+public class DataTypeCaseDemo02 {
     public static void main(String[] args) {
         String s= "Hello";
         //八大基本数据类型
