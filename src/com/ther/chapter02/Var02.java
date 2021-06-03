@@ -1,4 +1,4 @@
-package chapter;
+package com.ther.chapter02;
 
 public class Var02 {
 	//编写一个main方法

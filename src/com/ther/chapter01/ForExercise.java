@@ -1,4 +1,4 @@
-package chapter05;
+package com.ther.chapter01;
 
 public class ForExercise {
 	public static void main(String[] args) {

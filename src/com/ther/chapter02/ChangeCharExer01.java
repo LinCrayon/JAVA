@@ -1,4 +1,4 @@
-package chapter;
+package com.ther.chapter02;
 
 public class ChangeCharExer01 {
 	public static void main(String [] args) {

@@ -1,4 +1,4 @@
-package chapter;
+package com.ther.chapter02;
 
 public class CharDetail {
 	public static void main(String[] arrgs) {

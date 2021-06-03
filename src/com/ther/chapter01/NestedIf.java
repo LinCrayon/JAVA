@@ -1,4 +1,4 @@
-package chapter05;
+package com.ther.chapter01;
 
 import java.util.Scanner;
 public class NestedIf {

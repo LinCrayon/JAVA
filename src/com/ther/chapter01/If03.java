@@ -1,4 +1,4 @@
-package chapter05;
+package com.ther.chapter01;
 import java.util.Scanner;
 public class If03 {
 	public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package chapter;
+package com.ther.chapter02;
 
 public class StringToBasic {
 	//编写一个 main 方法

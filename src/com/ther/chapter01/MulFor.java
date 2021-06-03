@@ -1,4 +1,4 @@
-package chapter05;
+package com.ther.chapter01;
 
 public class MulFor {
 	public static void main(String[] args) {

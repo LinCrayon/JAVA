@@ -1,4 +1,4 @@
-package chapter;
+package com.ther.chapter02;
 
 class Test {
 	public static void main(String[] args) {

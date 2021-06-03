@@ -1,4 +1,4 @@
-package chapter05;
+package com.ther.chapter01;
 
 public class DoWhileExercise01 {
 	public static void main(String[] args) {
@@ -13,12 +13,13 @@ public class DoWhileExercise01 {
 		int i = 1;
 		int count = 0;
 		do {
-			if(i%5 == 0 && i%3!= 0) {
-				System.out.println("i="+i);
+			if (i % 5 == 0 && i % 3 != 0) {
+				System.out.println("i=" + i);
 				count++;
 			}
 			i++;
-		}while(i <= 200);
-		System.out.println("count="+count);
+		} while (i <= 200);
+		System.out.println("count=" + count);
 	}
 }
+

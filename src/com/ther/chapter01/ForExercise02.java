@@ -1,4 +1,4 @@
-package chapter05;
+package com.ther.chapter01;
 
 public class ForExercise02 {
 	//编写一个 main 方法
