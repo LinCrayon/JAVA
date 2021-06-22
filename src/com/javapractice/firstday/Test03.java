@@ -28,8 +28,5 @@ public class Test03 {
         for(i = 0; i < m; i++){
             System.out.print(s[i]+ " ");
         }
-
-
     }
-
 }
