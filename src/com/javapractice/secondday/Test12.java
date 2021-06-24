@@ -1,4 +1,4 @@
-package com.javapractice.firstday;
+package com.javapractice.secondday;
 
 //【程序12】
 //题目：输出9*9口诀。

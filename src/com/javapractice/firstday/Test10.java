@@ -17,7 +17,7 @@ public class Test10 {
         System.out.print("请输入次数：");
         n = sc.nextInt();
         s = h;
-        for (int i = 0; i < n; i++) {
+        for (int i = 1; i < n; i++) {
             h = h/2;
             s = s + h*2;
         }

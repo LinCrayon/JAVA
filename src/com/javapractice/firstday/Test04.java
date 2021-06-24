@@ -6,15 +6,15 @@ package com.javapractice.firstday;
 
 public class Test04 {
     public static void main(String[] args){
-        int[] arr = {132,321,3,4,54,45,75,153,156,556};
+        int[] arr = {12,31,3,4,54,5,75,13,56,55};
         int i , j , n , x ;
-        for ( i = 0, j = arr.length-1 ;i < j ;i++ ,j-- ) {
+        for ( i = 0, j = arr.length-1 ;i < j ;i++ ,j-- ){
             x = arr [i];
             arr[ i] = arr[j];
             arr [j] = x;
         }
         for(n = 0 ;n < arr.length; n++){
-            System.out.print(arr[n] + " ");
+            System.out.print(arr[n] + "  ");
         }
     }
 }

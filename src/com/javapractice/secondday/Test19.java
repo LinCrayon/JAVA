@@ -1,4 +1,4 @@
-package com.javapractice.firstday;
+package com.javapractice.secondday;
 //【程序19】
 //题目：一个5位数，判断它是不是回文数。即12321是回文数，个位与万位相同，十位与千位相同。
 //这个程序跟上一个程序类似。
@@ -6,6 +6,7 @@ package com.javapractice.firstday;
 //  * 逐次取位
 //  * 组后判断条件就可以了
 import java.util.Scanner;
+
 public class Test19 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);

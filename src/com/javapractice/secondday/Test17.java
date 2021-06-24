@@ -1,8 +1,9 @@
-package com.javapractice.firstday;
+package com.javapractice.secondday;
 //【程序17】
 //题目：利用递归方法求5!。
 //程序分析：递归公式：f(n)=n*f(n-1)，不断的调用方法，直到最小的值确定1。
 import java.util.Scanner;
+
 public class Test17 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);

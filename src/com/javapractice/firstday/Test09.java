@@ -1,5 +1,4 @@
 package com.javapractice.firstday;
-
 //【程序9】
 //题目：一个数如果恰好等于它的因子之和，这个数就称为”完数”。例如6=1＋2＋3.编程找出1000以内的所有完数。
 //判断完数的方法：
@@ -9,7 +8,6 @@ package com.javapractice.firstday;
 //*  比如：48，最大的因数才24,99最大的因数是33，因数不会大于本身数的一半
 //*  （2）j就是我们所求的因数，把所有的j相加，就可以得到因数总和
 //*  （3）因数总和已经包含1了，因为第一次就保存1了
-
 import java.util.Scanner;
 public class Test09 {
     public static void main(String[] args) {
@@ -18,14 +16,14 @@ public class Test09 {
         for(n = 2; n <= 1000 ;n++){
             s = 0;
             for ( i = 1; i < n ; i++) {
-                if(n%i==0)   s = s + i;
+                if(n%i == 0)   s = s + i;
                 }
                 if(s == n){     //条件成立，表示整数
                     System.out.print(n + "=1");
                     for(i =2 ; i < n; i++){
-                        if(n%i==0)    System.out.print("+" +i );
+                        if(n%i==0)  System.out.print("+" +i );
                         }
-                        System.out.println();
+                    System.out.println();
             }
         }
     }

@@ -1,5 +1,4 @@
 package com.javapractice.firstday;
-
 //【程序6】
 //题目：输入两个正整数m和n，求其最大公约数和最小公倍数。
 //程序分析：利用辗除法。
@@ -22,7 +21,7 @@ public class Test06 {
         n = sc.nextInt();
         zdgys = GYS(m,n);
         zdgbs = m*n/zdgys;
-        System.out.print("最大公约数为：" + zdgys + ",最小公倍数："+ zdgbs);
+        System.out.print("最大公约数为：" + zdgys + ",最小公倍数：" + zdgbs);
     }
     private static int GYS(int m , int n){
         int r;

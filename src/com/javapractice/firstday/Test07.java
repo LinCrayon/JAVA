@@ -11,7 +11,6 @@ package com.javapractice.firstday;
 //（1）数字0到9： 48~57
 //（2）字母A到Z：65到90 a到z：97到122
 //（3）空格是32
-
 import java.util.Scanner;
 public class Test07 {
     public static void main(String[] args) {
@@ -21,7 +20,7 @@ public class Test07 {
         int other = 0;
         System.out.print("请输入一行字符：");
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextLine();
+        String s = sc.nextLine();       //nextLine()回车结束
         char[] sz = s.toCharArray();
         for (int i = 0; i < sz.length ; i++) {
             if(sz[i] > 'A' && sz[i] <= 'Z' || sz[i] >= 'a' && sz[i] <='z'){
@@ -33,7 +32,7 @@ public class Test07 {
             }else {
                 other++;
             }
-            System.out.println("字母个数为：" + letter + ",数字个数为：" + num + ",空格个数为："+ space +",其他个数为：" + other );
         }
+        System.out.println("字母个数为：" + letter + ",数字个数为：" + num + ",空格个数为："+ space +",其他个数为：" + other );
     }
 }
